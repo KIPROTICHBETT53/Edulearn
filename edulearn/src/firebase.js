@@ -2,13 +2,7 @@ import { initializeApp } from 'firebase/app';
 import { getAuth, GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: "",
-  authDomain: "edulearn-88.firebaseapp.com",
-  projectId: "edulearn-88",
-  storageBucket: "edulearn-88.appspot.com",
-  messagingSenderId: "844902153902",
-  appId: "1:844902153902:web:2b9e408b2886a5860ff73f",
-  measurementId: "G-7L4SCS2CD3"
+  
 };
 
 const app = initializeApp(firebaseConfig);
